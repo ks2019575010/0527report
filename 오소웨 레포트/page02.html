@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body{background-color: linen;color:;text-shadow: 3px 3px silver; }
+	@keyframes textColorAnimation {
+	0% { color : blue; }	
+	25% { color : green; } 
+	50%{color:yellow;}
+	75%{color:purple;}
+	100% { color : red; }}
+   span {
+	animation-name : textColorAnimation; 
+	animation-duration : 5s;
+	animation-iteration-count : infinite; 
+}
+
+	span:hover{font-size:300%;}
+	h3{text-align: center; text-shadow: 3px 3px silver; }
+
+</style>
+<head>
+	<title>위드마크 공식</title>
+</head>
+<body>
+	<h3>위드마크 공식</h3>
+	<hr>
+	a=섭취한 알코올의 양=음주량(ml*술의 농도(%)*알콜비중0.7894(g/ml))<br>
+	p=체중(kg)<br>
+	b=시간당 알코올 분해량(mg/100ml)<br>
+	t=경과시간(hour)<br>
+	r=남성0.7,여성0.55<br>
+	<span>혈중 알코올 농도={a*0.7/(p*r)}-(b*t)</span>
+
+
+</body>
+</html>
